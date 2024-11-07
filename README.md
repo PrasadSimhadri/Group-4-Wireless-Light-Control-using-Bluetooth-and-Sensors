@@ -1,3 +1,13 @@
+### Team Members:
+   - CB.EN.U4CSE22438 - Prasad Simhadri
+   - CB.EN.U4CSE22439 - Siddhardh Reddy
+   - CB.EN.U4CSE22458 - Vamsi Krishna
+   - CB.EN.U4CSE22461 - Shanmuka Vardhan
+     
+Department of Computer Science and Engineering    
+Amrita School of Computing, 
+Amrita Vishwa Vidyapeetham, Coimbatore, India.
+
 This STM32F4 embedded C program controls and interacts with various sensors and LEDs on a microcontroller board, providing real-time feedback through LEDs and USART communication. Below is an overview and breakdown of each component and its working.
 
 ### Code Overview

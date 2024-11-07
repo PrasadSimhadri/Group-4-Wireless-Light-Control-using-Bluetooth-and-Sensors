@@ -1,0 +1,239 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: prasad saisimh, HP Inc., LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.40.0.3
+Toolchain Path:  C:\Users\saisi\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\saisi\OneDrive\Desktop\Embedded Project\case_study.uvprojx
+Project File Date:  11/07/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\saisi\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+Note: source file 'C:/Users/saisi/AppData/Local/Arm/Packs/Keil/ARM_Compiler/1.7.2/Source/retarget_io.c' - object file renamed from '.\Objects\retarget_io.o' to '.\Objects\retarget_io_1.o'.
+C:/Users/saisi/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/CMSIS/Driver/USART_STM32F4xx.c(180): warning: In file included from...
+C:/Users/saisi/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/CMSIS/Driver\USART_STM32F4xx.h(72): error: "USART not configured in RTE_Device.h!"
+   72 |     #error "USART not configured in RTE_Device.h!"
+      |      ^
+1 error generated.
+compiling USART_STM32F4xx.c...
+".\Objects\case_study.axf" - 1 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: GPIO Version: 1.0.0
+   * Component: USART Version: 2.4.0
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+   * Component: Custom Version: 1.0.0
+   * Component: CORE Version: 6.1.0
+   * Component: SysTick Version: 1.0.5
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-Compiler.2.1.0.pack
+                ARM::CMSIS-Compiler@2.1.0
+                CMSIS Compiler extensions for Arm Compiler, GCC, Clang, and IAR Compiler
+   * Component: CORE Version: 1.1.0
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-Driver_Validation.3.0.0.pack
+                ARM::CMSIS-Driver_Validation@3.0.0
+                CMSIS-Driver Validation
+   * Component: Framework Version: 2.0.0
+   * Component: USART Version: 2.0.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-RTX.5.9.0.pack
+                ARM::CMSIS-RTX@5.9.0
+                RTX RTOS implementation of CMSIS-RTOS2 API
+   * Component: Keil RTX5 Variant: Library Version: 5.9.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.ARM_Compiler.1.7.2.pack
+                Keil::ARM_Compiler@1.7.2
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: Breakpoint Version: 1.2.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.MDK-Middleware.7.17.0.pack
+                Keil::MDK-Middleware@7.17.0
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Buttons Version: 1.0.0
+   * Component: LED Version: 1.0.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Buttons Version: 1.0.0
+   * Component: LED Version: 1.0.0
+   * Component: USART Version: 2.16
+   * Component: Classic Version: 1.8.1
+   * Component: Common Version: 1.8.1
+   * Component: Cortex Version: 1.8.1
+   * Component: DMA Version: 1.8.1
+   * Component: GPIO Version: 1.8.1
+   * Component: PWR Version: 1.8.1
+   * Component: RCC Version: 1.8.1
+   * Component: UART Version: 1.8.1
+   * Component: USART Version: 1.8.1
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/CMSIS
+  ./RTE/CMSIS_Driver_Validation
+  ./RTE/Device/STM32F401CCUx
+  ./RTE/_Target_1
+  C:/Users/saisi/AppData/Local/Arm/Packs/ARM/CMSIS-Driver_Validation/3.0.0/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/ARM/CMSIS-RTX/5.9.0/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Driver/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/RTOS2/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/Keil/MDK-Middleware/7.17.0/Board
+  C:/Users/saisi/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+  C:/Users/saisi/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.17.1/Drivers/STM32F4xx_HAL_Driver/Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Board Support:Buttons(API)@1.0.0
+      Include file:  Board/Board_Buttons.h
+
+   * Component: ::Board Support:LED(API)@1.0.0
+      Include file:  Board/Board_LED.h
+
+   * Component: ::CMSIS Driver:GPIO(API)@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_GPIO.h
+
+   * Component: ::CMSIS Driver:USART(API)@2.4.0
+      Include file:  CMSIS/Driver/Include/Driver_USART.h
+
+   * Component: ::CMSIS:OS Tick(API)@1.0.1
+      Include file:  CMSIS/RTOS2/Include/os_tick.h
+
+   * Component: ::CMSIS:RTOS2(API)@2.3.0
+      Include file:  CMSIS/RTOS2/Include/cmsis_os2.h
+
+   * Component: ::Device:STM32Cube Framework(API)@1.0.0
+
+   * Component: ARM::CMSIS Driver Validation:Framework@2.0.0
+      Source file:   Source/cmsis_dv.c
+      Include file:  Config/DV_Config.h
+      Source file:   Source/DV_Framework.c
+      Source file:   Source/DV_Report.c
+
+   * Component: ARM::CMSIS Driver Validation:USART@2.0.0
+      Source file:   Source/DV_USART.c
+      Include file:  Config/DV_USART_Config.h
+
+   * Component: ARM::CMSIS Driver:GPIO:Custom@1.0.0
+      Include file:  CMSIS/Driver/Include/Driver_GPIO.h
+      Source file:   CMSIS/Driver/DriverTemplates/Driver_GPIO.c
+
+   * Component: ARM::CMSIS-Compiler:CORE@1.1.0
+      Source file:   source/armcc/retarget_io.c
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: ARM::CMSIS:OS Tick:SysTick@1.0.5
+      Source file:   CMSIS/RTOS2/Source/os_systick.c
+
+   * Component: ARM::CMSIS:RTOS2:Keil RTX5&Library@5.9.0
+      Source file:   Template/main.c
+      Include file:  Include/rtx_os.h
+      Source file:   Template/Events.c
+      Source file:   Template/MemPool.c
+      Source file:   Template/MsgQueue.c
+      Source file:   Template/Semaphore.c
+      Source file:   Config/RTX_Config.c
+      Source file:   Template/Timer.c
+      Source file:   Template/Mutex.c
+      Source file:   Template/Thread.c
+      Include file:  Config/RTX_Config.h
+      Source file:   Source/rtx_lib.c
+      Source file:   Template/svc_user.c
+      Library file:  Library/ARM/RTX_V7MF.lib
+
+   * Component: Keil::Board Support&STM32F401C-Discovery:Buttons@1.0.0
+      Source file:   MDK/Boards/ST/STM32F401C-Discovery/Common/Buttons_F401Discovery.c
+
+   * Component: Keil::Board Support&STM32F401C-Discovery:LED@1.0.0
+      Source file:   MDK/Boards/ST/STM32F401C-Discovery/Common/LED_F401Discovery.c
+
+   * Component: Keil::CMSIS Driver:USART@2.16
+      Source file:   CMSIS/Driver/USART_STM32F4xx.c
+
+   * Component: Keil::Compiler&ARM Compiler:I/O:STDOUT&Breakpoint@1.2.0
+      Source file:   Source/retarget_io.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic@1.8.1
+      Include file:  MDK/Templates/Inc/stm32f4xx_hal_conf.h
+      Include file:  CMSIS/Driver/Config/RTE_Device.h
+      Source file:   MDK/Templates_LL/Src/main.c
+      Source file:   MDK/Templates/Src/stm32f4xx_hal_msp.c
+      Include file:  MDK/Templates/Inc/stm32f4xx_it.h
+      Source file:   MDK/Templates/Src/stm32f4xx_it.c
+      Source file:   MDK/Templates/Src/main.c
+      Include file:  MDK/Templates/Inc/main.h
+      Include file:  MDK/Templates_LL/Inc/main.h
+
+   * Component: Keil::Device:STM32Cube HAL:Common@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+      Include file:  Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:STM32Cube HAL:UART@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+
+   * Component: Keil::Device:STM32Cube HAL:USART@1.8.1
+      Source file:   Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
+
+   * Component: Keil::Device:Startup@2.6.3
+      Source file:   MDK/Device/Source/ARM/STM32F401xx_OPT.s
+      Source file:   MDK/Device/Source/ARM/STM32F4xx_OTP.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/arm/startup_stm32f401xc.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

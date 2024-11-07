@@ -46,7 +46,7 @@ int main(void) {
 
         // Ultrasonic Sensor: Send trigger pulse
         GPIOA->ODR |= (1U << 4);  // Set PA4 high (Trigger)
-        delay(10);                 // Short delay ~10 µs
+        delay(10);                 // Short delay ~10 ï¿½s
         GPIOA->ODR &= ~(1U << 4); // Set PA4 low (Trigger)
 
         // Check for echo on PA5

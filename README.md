@@ -1,14 +1,4 @@
-### Team Members:
-   - CB.EN.U4CSE22438 - Prasad Simhadri
-   - CB.EN.U4CSE22439 - Siddhardh Reddy
-   - CB.EN.U4CSE22458 - Vamsi Krishna
-   - CB.EN.U4CSE22461 - Shanmuka Vardhan
-     
-Department of Computer Science and Engineering    
-Amrita School of Computing, 
-Amrita Vishwa Vidyapeetham, Coimbatore, India.
-
-This STM32F4 embedded C program controls and interacts with various sensors and LEDs on a microcontroller board, providing real-time feedback through LEDs and USART communication. Below is an overview and breakdown of each component and its working.
+## This STM32F4 embedded C program controls and interacts with various sensors and LEDs on a microcontroller board, providing real-time feedback through LEDs and USART communication. Below is an overview and breakdown of each component and its working.
 
 ### Code Overview
 
@@ -83,3 +73,14 @@ The main loop operates once the `start_system` flag is set (when the button is p
 ### Practical Usage
 
 This code is ideal for a basic security or monitoring system, utilizing sensors for motion, distance, light intensity, and touch. The USART interface allows a user to interact with the system remotely, making it suitable for embedded IoT applications where user feedback and control are needed.
+
+### Team Members:
+   - CB.EN.U4CSE22438 - Prasad Simhadri
+   - CB.EN.U4CSE22439 - S. Siddhardh Reddy
+   - CB.EN.U4CSE22458 - D. Vamsi Krishna
+   - CB.EN.U4CSE22461 - B. Shanmuka Vardhan
+
+     
+Department of Computer Science and Engineering    
+Amrita School of Computing, 
+Amrita Vishwa Vidyapeetham, Coimbatore, India.
